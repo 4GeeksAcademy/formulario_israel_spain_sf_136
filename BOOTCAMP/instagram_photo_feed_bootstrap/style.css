@@ -1,0 +1,16 @@
+body{
+    background-color: rgb(184, 180, 180);
+}
+.container{
+    background-color: rgb(252, 242, 242);
+    width: 430px;
+}
+.logo{
+    padding-top: 50px;
+    margin-left: 50px;
+}
+.boton1{
+    display: flex;
+    justify-content: end;
+    padding-bottom: 20px;
+}
