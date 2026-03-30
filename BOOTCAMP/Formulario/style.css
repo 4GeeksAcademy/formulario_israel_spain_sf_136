@@ -1,6 +1,6 @@
 .tittle {
 text-align: center;
-background-color: rgb(247, 234, 234);
+background-color: rgb(165, 160, 160);
 }
 .message{
     background-color: pink;
@@ -9,4 +9,8 @@ background-color: rgb(247, 234, 234);
     display: flex;
     justify-content: flex-end;
     margin-right: 20%;
+}
+.card {
+display: flex;
+align-items: center;
 }

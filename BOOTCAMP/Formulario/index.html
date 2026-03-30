@@ -12,6 +12,7 @@
 
 <body>
     <div class="container">
+
         <form>
             <div class="tittle">
                 <h1>Ejemplo de Formulario</h1>
@@ -19,59 +20,53 @@
             <div class="message">
                 <h3>Some Fiels are missing</h3>
             </div>
-            <div class="row g-3 align-items-center">
-                <div class="col-auto">
-                    <label for="inputPassword6" class="col-form-label">Password</label>
-                </div>
-                <div class="col-auto">
-                    <input type="password" id="inputPassword6" class="form-control"
-                        aria-describedby="passwordHelpInline">
-                </div>
-                <div class="col-auto">
-                    <span id="passwordHelpInline" class="form-text">
-                        Must be 8-20 characters long.
-                    </span>
-                </div>
-            </div>
-            <div class="card">
-                <div class="col-md-9">
-                <div class="input-group mb-1">
-                    <span class="input-group-text">$</span>
-                    <span class="input-group-text">0.00</span>
-                    <input type="text" class="form-control"
-                        aria-label="Dollar amount (with dot and two decimal places)">
-                </div>
-                </div>
-            </div>
-            <div class="data">
-                <div class="container text-center">
-                    <div class="row g-3">
-                        <div class="col">
-                            <input type="text" class="form-control" placeholder="First name" aria-label="First name">
-                        </div>
-                        <div class="col">
-                            <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
-                        </div>
-                    </div>
-                </div>
-            </div>
+            
             <div class="row g-3">
-                <div class="col-sm-5">
-                    <input type="text" class="form-control" placeholder="City" aria-label="City">
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="First name" aria-label="First name">
                 </div>
-                <div class="col-md-3">
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+                </div>
+            </div>
+            <form class="row g-3">
+                <div class="col-md-6">
+                    <label for="inputEmail4" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="inputEmail4">
+                </div>
+                <div class="col-md-6">
+                    <label for="inputPassword4" class="form-label">Password</label>
+                    <input type="password" class="form-control" id="inputPassword4">
+                </div>
+                <div class="col-12">
+                    <label for="inputAddress" class="form-label">Address</label>
+                    <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                </div>
+                <div class="col-12">
+                    <label for="inputAddress2" class="form-label">Address 2</label>
+                    <input type="text" class="form-control" id="inputAddress2"
+                        placeholder="Apartment, studio, or floor">
+                </div>
+                <div class="col-md-6">
+                    <label for="inputCity" class="form-label">City</label>
+                    <input type="text" class="form-control" id="inputCity">
+                </div>
+                <div class="col-md-4">
                     <label for="inputState" class="form-label">State</label>
                     <select id="inputState" class="form-select">
                         <option selected>Choose...</option>
                         <option>...</option>
                     </select>
                 </div>
-                <div class="col-sm">
-                    <input type="text" class="form-control" placeholder="Zip" aria-label="Zip">
+                <div class="col-md-2">
+                    <label for="inputZip" class="form-label">Zip</label>
+                    <input type="text" class="form-control" id="inputZip">
                 </div>
-            </div>
     </div>
-    </form>
+    <div class="form-floating">
+        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"
+            style="height: 50px"></textarea>
+        <label for="floatingTextarea2">Comments</label>
     </div>
     <div class="button">
         <div class="foot">
