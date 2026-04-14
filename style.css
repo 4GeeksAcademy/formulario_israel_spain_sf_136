@@ -1,0 +1,16 @@
+.tittle {
+text-align: center;
+background-color: rgb(165, 160, 160);
+}
+.message{
+    background-color: pink;
+}
+.button{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20%;
+}
+.card {
+display: flex;
+align-items: center;
+}
